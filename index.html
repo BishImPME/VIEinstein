@@ -1,276 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Premade.io - Drag & drop webpage builder with thousands of pre-made content blocks</title>
-	<!-- Stylesheet -->
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="stylesheets/site.css">
-	<style id="page-styles"></style>
-</head>
-<body>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Home | TotalFreedom Minecraft Server</title>
+      <meta name="author" content="aggelosQQ, markbyron, DarthSalamon, Madgeek1450, TotalFreedom">
+      <meta name="keywords" content="TF,minecraft,totalfreedom,free op,server,worldedit,freebuild">
+      <meta name="description" content="TotalFreedom is the first Free OP Minecraft server, which is up and running since 2010! play.totalfreedom.me">
+      <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600" rel="stylesheet">
+      <link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+      <link async rel="stylesheet" href="css/component.min.css">
+      <link async rel="stylesheet" href="css/main.css">
+      <link async rel="stylesheet" href="css/global.css">
+      <link async rel=”icon” href=”favicon.ico” type=”image/x-icon”>
+      <link async rel=”shortcut icon” href=”favicon.ico” type=”image/x-icon”>
+      <script>! function(a, b, c, d, e, f, g){a.GoogleAnalyticsObject=e, a[e]=a[e] || function(){(a[e].q=a[e].q || []).push(arguments)}, a[e].l=1 * new Date, f=b.createElement(c), g=b.getElementsByTagName(c)[0], f.async=1, f.src=d, g.parentNode.insertBefore(f, g)}(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-74643356-2", "auto"), ga("send", "pageview"); </script>
+   </head>
+   <body>
+      <div class="navbar-fixed">
+         <nav class="transparent z-depth-0" id="menu">
+            <div class="nav-wrapper z-depth-0">
+               <a href="#" id="brand-top" class="brand-logo"></a> <a href="#" data-activates="mobile" class="button-collapse"><i class="fa fa-bars"></i></a> 
+               <ul class="right hide-on-med-and-down cl-effect-14" id="cl-effect-14">
+                  <li><a href="#" id="top">Home</a></li>
+                  <li><a href="#" id="rules">Rules</a></li>
+                  <li><a href="#" id="staff">Staff</a></li>
+                  <li><a href="masterbuilders/">Masterbuilders</a></li>
+                  <li><a href="http://totalfreedom.boards.net" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="You will be redirected to totalfreedom.boards.net">Forum</a></li>
+               </ul>
+               <ul class="side-nav" id="mobile">
+                  <li><a href="#header">Home</a></li>
+                  <li><a href="#rules">Rules</a></li>
+                  <li><a href="#staff">Staff</a></li>
+                  <li><a href="masterbuilders/">Masterbuilders</a></li>
+                  <li><a href="http://totalfreedom.boards.net">Forum</a></li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+      <div class="section active cover-1" id="header">
+         <div class="online-part">
+            <h3 id="server-status"> <span id="online"></span></h3>
+            <a href="#onlineplayers" class="button modal-trigger" data-target="onlineplayers">Online Players</a> 
+         </div>
 
-	<div id="app"></div>
+         <div id="onlineplayers" class="modal modal-fixed-footer">
+            <div class="modal-content">
+               <h4 id="players-online">
+               </h4> 
+               <ul id="players"></ul>
+               
+               <div class="modal-msg">
+                  <h5>Why don't you visit us yourself?</h5>
+                  <span class="ip">play.totalfreedom.me</span>
+               </div>
+            </div>
+            <div class="modal-footer"> 
+               <a href="#!" class="modal-action modal-close btn-flat waves-effect waves-dark">I'm Done</a>
+            </div>
+         </div>
+      </div>
+      <div class="section cover-2" id="rules-sec">
+         <h1 class="section-title">TotalFreedom Rules</h1>
+         <div class="rules-section">
+            <h2 id="rules-title" class="one waves-effect waves-brown">No Griefing <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
+            <p class="rule a">Do not grief the server. There are many ways to do that, but the most common are to intentionally crash the server, lag the server, destroy or damage the spawn, destroy or damage other player's builds, erase warp points, PVP without agreement of other players, chat spamming, and so forth.<br>Use your best judgment, and remember that other people are on here to have fun also.</p>
+         </div>
+         <div class="rules-section">
+            <h2 id="rules-title" class="two waves-effect waves-brown">No Posing <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
+            <p class="rule b">Do not pose as the server owner (markbyron) and do not pose as an admin or one of the other regular players that use Total Freedom. By posing, that means using a program such as MinecraftSP or otherwise changing your nick. Posing to change your title or to pose as somebody "famous" (like Notch) is okay provided you do not use it grief the server. You may not use nicks or tags that imply you have an official position on the server. This includes any nick or tag including the words admin, senior, owner, telnet, builder, architect, coder, dev, programmer, mod, security, or any nick or tag that the owner or a senior admin believes is an attempt to pose. In such cases, the offender will be de-nicked and warned.</p>
+         </div>
+         <div class="rules-section">
+            <h2 id="rules-title" class="three waves-effect waves-brown">Respect Privacy <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
+            <p class="rule c">Respect the "Total Freedom" of other players. Do not be a pest or a nuisance to others, and respect their privacy. Do not "help" with builds if people do not want you to, and do not teleport someone without their permission. It is best to use /tpahere to request for someone to teleport to you, rather than forcefully teleporting them. </p>
+         </div>
+         <div class="rules-section">
+            <h2 id="rules-title" class="four waves-effect waves-brown">Respect others <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
+            <p class="rule d">Do not engage in personal attacks on other players/admins and take all personal disputes off the server. If you don't like a particular player, feel more than free to use the ignore command on them but personal wars on the server won't be tolerated regardless of who started it and temporary bans will result. If you're coming on the server to troll other players, you'll end up getting trolled yourself (we love to play with trolls). Similarly, threats to DOX, threats to commit illegal acts (e.g. DDOS), graphic sexual discussion or RP, linking to porn or scam sites, racist attacks, and other forms of behavior designed to offend, intimidate or harass will not be tolerated.</p>
+         </div>
+         <div class="rules-section">
+            <h2 id="rules-title" class="five waves-effect waves-brown">Adhere to Authority <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
+            <p class="rule e">Do not override the actions of the server owner (markbyron) or other admins. For example, if an admin de-ops or bans a player for griefing, you may not re-op or pardon them without permission. Super admins will follow the directions of senior admins with respect to any admin matter unless it violates server rules. If it violates the rules, the admin will notify the proper authority.</p>
+         </div>
 
-	<script id="landing-tpl" type="text/x-handlebars-template">
-		<div class="land-container">
-			<div class="land-top">
-				<h1 class="land-logo-h1">Premade.io</h1>
-			</div>
-			<div class="land-middle">
-				<div class="land-title">Coming Soon</div>
-				<div class="land-slogan">Drag & drop webpage builder with thousands of pre-made content&nbsp;blocks. <br/>Beta testing now. Signup to get early access and product&nbsp;updates.</div>
-				<!-- Begin MailChimp Signup Form -->
-				<div id="mc_embed_signup">
-					<form action="//premade.us12.list-manage.com/subscribe/post?u=1078ebfbc262838892f0d6e13&amp;id=c81f66d706" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-						<div id="mc_embed_signup_scroll">
-							<div class="mc-field-group">
-								<label for="mce-EMAIL"></label>
-								<input type="email" value="" name="EMAIL" class="required email land-input" id="mce-EMAIL" placeholder="YOUR EMAIL ADDRESS">
-								<input type="submit" value="Get Notified" name="subscribe" id="mc-embedded-subscribe" class="button land-btn">
-							</div>
-							<div id="mce-responses" class="clear">
-							<div class="response" id="mce-error-response" style="display:none"></div>
-							<div class="response" id="mce-success-response" style="display:none"></div>
-							</div>   
-							<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
-							<div style="position: absolute; left: -5000px;" aria-hidden="true">
-								<input type="text" name="b_1078ebfbc262838892f0d6e13_c81f66d706" tabindex="-1" value="">
-							</div>
-						</div>
-					</form>
-				</div>
-				<!--End mc_embed_signup-->
-			</div>
-			<div class="land-bottom">
-				<!-- <a href="#" class="land-a" target="_blank" rel="nofollow">About</a> &nbsp;&bull;&nbsp; -->
-				<a href="https://medium.com/tag/premade" class="land-a" target="_blank" rel="nofollow">The Story</a> &nbsp;&bull;&nbsp; 
-				<a href="https://github.com/Premade/premade.github.io" class="land-a" target="_blank" rel="nofollow">GitHub</a> &nbsp;&bull;&nbsp; 
-				<a href="https://twitter.com/HelloPremade" class="land-a" target="_blank" rel="nofollow">Twitter</a> &nbsp;&bull;&nbsp; 
-				<a href="http://premade-io-queue.herokuapp.com/" class="land-a" target="_blank" rel="nofollow">Feature Request</a> &nbsp;&bull;&nbsp; 
-				<a href="https://arainazhang.typeform.com/to/TPPjv3" class="land-a" target="_blank" rel="nofollow">Submit Your Design</a>
-			</div>
-		</div>
-	</script>
 
-	<script id="page-edit-tpl" type="text/x-handlebars-template">
+         <p class="caution"><i class="fa fa-exclamation-triangle"></i> TotalFreedom does not accept donations.</p>
+         <a class="grey-text" href="http://totalfreedom.boards.net/thread/21065/server-conduct-policy-players-admins">Read the Conduct Policy</a> 
 
-		<div class="side app-ui">
-			<h1 class="logo">
-				<a href="/" class="logo-a">Premade.io</a>
-				<div class="btn-actions">
-					<a href="https://arainazhang.typeform.com/to/Khc2Zs" target="_blank" class="btn btn-sm btn-default">Leave Feedback</a>
-				</div>
-			</h1>
-			<div class="theme-curr">
-				Theme: <span class="theme-curr-name">{{name}}</span>
-			</div>
-			<div class="types">
-			</div>
-			<div class="blocks-temp"></div>
-			<div class="delete">
-				<i class="material-icons">close</i>
-			</div>
-		</div>
-		<div class="side-2 app-ui"></div>
-		<div class="main">
-			<div class="title app-ui">
-				<h2>Beta Test <span class="title-info">- Your pages could be deleted anytime.</span></h2>
-				<div class="btn-actions">
-					<button class="generate btn btn-action btn-sm">Edit Content</button>
-				</div>
-			</div>
-			<div class="preview">
-				<ul class="preview-list app-ui">
-					<li class="preview-empty">
-						<h3>Drag Blocks Here</h3>
-					</li>
-				</ul>
-				<div class="preview-html"></div>
-			</div>
-		</div>
 
-	</script>
+         <h1 class="section-title">TotalFreedom Help</h1>
+         <div class="rules-section">
+            <h2 id="rules-title" class="six">Saving Builds <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
+            <p class="rule f">To save your builds (i.e. create a WorldEdit schematic), first use the //wand tool to select the bounds of your build (i.e. the opposite corners of your build). Then, type //copy to place your build on the clipboard, and type //schem save nameofbuild to save your build (replacing nameofbuild with a unique name of your own).<br/> To load a schematic back into the world, do //schem load nameofbuild, and then //paste..</p>
+         </div>
+         <div class="rules-section">
+            <h2 id="rules-title" class="seven">Flatlands <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
+            <p class="rule g">This server features an additional flat-land building world which is very useful for building intricate creations. You can access this world by typing /flatlands, and you can get back to the main world by typing /flatlands again.</p>
+         </div>
+         <div class="rules-section">
+            <h2 id="rules-title" class="eight">Gamemodes <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
+            <p class="rule h">You are free to use creative or survival mode on the server. For creative, type /creative. For survival, type /survival. </p>
+         </div>
 
-	<script id="content-edit-tpl" type="text/x-handlebars-template">
+         <div class="rules-section">
+            <h2 id="rules-title" class="nine">TotalFreedom IPs <i class="fa fa-chevron-right rules-icon hide-on-med-and-down"></i></h2>
+            <div class="rule i"><p><u>IPs you may use to connect to TotalFreedom.</u></p>
+            <ul>
+            <li>play.totalfreedom.me (Recommended)</li>
+            <li>64.34.190.101:28965</li>
+            </ul>
+            </div>
+         </div>
+      </div>
+      <div class="section cover-3" id="staff-sec">
+         <br/> 
+         <h1 class="section-title">Current Staff</h1>
+         <div class="admins">
+            <h2 class="rank">TotalFreedom Executives</h2>
+            <ul id="executiveboard">
+               <a href="http://www.twitter.com/totalfreedommc" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="images/markbyron.png" class="responsive-img head-icon">MarkByron - Owner & Founder </li>
+               </a>
+               <a href="http://www.twitter.com/JeromSar" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="https://minotar.net/avatar/Prozza/80.png" class="responsive-img head-icon">Prozza - Executive Lead Dev </li>
+               </a>
+               <a href="http://www.twitter.com/Fiinest95" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="https://minotar.net/avatar/Finest95/80.png" class="responsive-img head-icon">Finest95 - Forum Owner & Manager </li>
+               </a>
+               <a href="https://www.twitter.com/wickedgaminguk" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="https://minotar.net/avatar/WickedGamingUK/80.png" class="responsive-img head-icon">WickedGamingUK - Server Liaison </li>
+               </a>
+               <a href="http://totalfreedom.boards.net/user/246" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="https://minotar.net/avatar/inFamas97/80.png" class="responsive-img head-icon">inFAmas97 - Executive Admin </li>
+               </a>
+               <a href="http://totalfreedom.boards.net/user/47" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="https://minotar.net/avatar/EnderLolzeh/80.png" class="responsive-img head-icon">EnderLolzeh - Executive Admin </li>
+               </a>
+               <a href="https://keybase.io/cowgomooo12" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="https://minotar.net/avatar/cowgomooo12/80.png" class="responsive-img head-icon">Cowgomooo12 - Executive Admin </li>
+               </a>
+               <a href="http://totalfreedom.boards.net/user/3448" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="https://minotar.net/avatar/TheMinecraft/80.png" class="responsive-img head-icon">TheMinecraft - Security Officer </li>
+               </a>
+               <a href="http://totalfreedom.boards.net/user/16323" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="https://minotar.net/avatar/DarkLynx108/80.png" class="responsive-img head-icon">DarkLynx108 - Creative Designer </li>
+               </a>
+               <a href="http://totalfreedom.boards.net/user/916" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="https://minotar.net/avatar/wisemagick1/80.png" class="responsive-img head-icon">wisemagick1 - Evangelist </li>
+               </a>
+               <a href="https://keybase.io/aggelosQQ" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="images/aggelosqq.png" class="responsive-img head-icon">aggelosQQ - Webmaster </li>
+               </a>
+            </ul>
+            <h2 class="rank">Global Forum Moderators</h2>
+            <ul id="modboard">
+               <a href="http://www.twitter.com/Fiinest95" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="https://minotar.net/avatar/Finest95/80.png" class="responsive-img head-icon">Finest95 - Forum Owner & Manager </li>
+               </a>
+               <a href="http://www.twitter.com/totalfreedommc" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="images/markbyron.png" class="responsive-img head-icon">MarkByron </li>
+               </a>
+               <a href="http://www.twitter.com/JeromSar" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="https://minotar.net/avatar/Prozza/80.png" class="responsive-img head-icon">Prozza </li>
+               </a>
+               <a href="https://www.twitter.com/wickedgaminguk" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="https://minotar.net/avatar/WickedGamingUK/80.png" class="responsive-img head-icon">WickedGamingUK </li>
+               <a href="https://keybase.io/cowgomooo12" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="https://minotar.net/avatar/cowgomooo12/80.png" class="responsive-img head-icon">Cowgomooo12 </li>
+               </a>
+               <a href="htttps://twitter.com/OliverDatGuy" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="https://minotar.net/avatar/OliverDatGuy/80.png" class="responsive-img head-icon">OliverDatGuy </li>
+               <a href="http://totalfreedom.boards.net/user/246" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="https://minotar.net/avatar/inFAmas97/80.png" class="responsive-img head-icon">inFAmas97 </li>
+               </a>
+               <a href="http://totalfreedom.boards.net/user/47" target="_blank" class="waves-effect waves-dark">
+                  <li> <img src="https://minotar.net/avatar/EnderLolzeh/80.png" class="responsive-img head-icon">EnderLolzeh </li>
+               </a>
+            </ul>
+            <div class="container">
+               <ul class="rest">
+                  <li><a href="staff.html" class="readmore waves-effect waves-light">See the rest of the staff <i class="fa fa-chevron-right fa-fw"></i></a></li>
+                  <br/> 
+               </ul>
+               <br/> 
+               <hr>
+               <br/> 
+               
+               <ul class="useful">
+               <h3 style="text-align: center;">Useful Links</h3>
+                  <a href="http://totalfreedom.boards.net" target="_blank" class="readmore waves-effect waves-dark">
+                     <li><i class="fa fa-comments icon"></i><br/> Forum</li>
+                  </a>
+                  <a href="http://totalfreedom.boards.net/thread/21065/server-conduct-policy-players-admins" target="_blank" class="readmore waves-effect waves-dark">
+                     <li><i class="fa fa-ban icon"></i><br/> Conduct Policy</li>
+                  </a>
+                  <a href="http://github.com/TotalFreedom" target="_blank" class="readmore waves-effect waves-dark">
+                     <li><i class="fa fa-github icon"></i><br/>Github</li>
+                  </a>
+                  <a href="https://twitter.com/totalfreedommc" target="_blank" class="readmore waves-effect waves-dark">
+                     <li><i class="fa fa-twitter icon"></i><br/> Twitter</li>
+                  </a>
+               </ul>
+            </div>
+         </div>
+         <footer class="page-footer transparent">
+            <div class="container">
+               <div class="footer-copyright">
+                  <div class="container">
+                     <hr>
+                     TotalFreedom &copy; 2010 - <span id="curYear"></span> <a class="grey-text text-lighten-4 right" href="https://aggelosqq.github.io" target="_blank">Made by aggelosQQ</a> 
+                  </div>
+               </div>
+            </div>
+            <div id="note">
+               <h6>Got an idea you would love to see implemented on the page? <a href="https://github.com/TotalFreedom/Website/issues" target="_blank">Please post your suggestions here</a>!</h6>
+            </div>
+         </footer>
+      </div>
 
-		<div class="side app-ui">
-			<h1 class="logo">
-				<a href="/" class="logo-a">Premade.io</a>
-				<div class="btn-actions">
-					<a href="https://arainazhang.typeform.com/to/Khc2Zs" target="_blank" class="btn btn-sm btn-default">Leave Feedback</a>
-				</div>
-			</h1>
-			<div class="edit">
-				{{#each blocks}}
-					<div class="edit-block" data-id="{{id}}-{{@index}}" data-index="{{@index}}">
-						{{#each fields.fields}}
-							<div class="field-title">{{name}}</div>
-							
-							{{#if isTxt}}
-								<input value="{{content}}" 
-									   class="field field-input form-control" 
-									   data-type="{{type}}" 
-									   data-key="{{key}}">
-							{{/if}}
-							{{#if isLongTxt}}
-								<textarea class="field form-control" 
-										  data-key="{{key}}" 
-										  data-type="{{type}}" 
-										  rows="3">{{content}}</textarea>
-							{{/if}}
-							{{#if isImg}}
-								<input type="file" 
-									   class="field field-img" 
-									   data-key="{{key}}" 
-									   data-type="{{type}}" 
-									   data-url="{{content}}">
-							{{/if}}
-							{{#if helper}}
-								<div class="field-helper">{{helper}}</div>
-							{{/if}}
-						{{/each}}
-					</div>
-				{{/each}}
-			</div>
-		</div>
-		<div class="main">
-			<div class="title app-ui">
-				<h2>Beta Test <span class="title-info">- Your pages could be deleted anytime.</span></h2>
-				<div class="btn-actions">
-					<button class="back btn btn-sm btn-link">Back</button>
-					<button class="publish btn btn-sm btn-action">Publish Page</button>
-				</div>
-			</div>
-			<div class="preview">
-				<div class="preview-html"></div>
-			</div>
-		</div>
 
-	</script>
-	
-	<script id="page-edit-blocks-with-content" type="text/x-handlebars-template">
-		{{#each items}}
-			<li class="block" id="{{id}}" data-id="{{id}}" data-content="{{content}}">
-				<img class="block-img" src="{{imgUrl}}" alt="{{name}}"/>
-			</li>
-		{{/each}}
-	</script>
-
-	<script id="page-edit-blocks" type="text/x-handlebars-template">
-		{{#each items}}
-			<li class="block" id="{{id}}" data-id="{{id}}">
-				<img class="block-img" src="{{attributes.imgUrl}}" alt="{{attributes.name}}"/>
-			</li>
-		{{/each}}
-	</script>
-	
-	<script id="page-edit-types" type="text/x-handlebars-template">
-		{{#each items}}
-			<li class="type" data-id="{{id}}">
-				<div class="type-label">{{attributes.name}}</div>
-				<ul class="blocks"id="{{id}}"></ul>
-			</li>
-		{{/each}}
-	</script>
-
-	<script id="page-edit-themes" type="text/x-handlebars-template">
-		{{#each items}}
-			<li class="theme" data-id="{{id}}">
-				<div class="theme-title">
-					<span class="theme-name">{{attributes.name}}</span>
-					by
-					<a href="{{attributes.authorUrl}}" target="_blank">{{attributes.author}}</a>
-				</div>
-				<img class="theme-img" src="{{attributes.imgUrl}}" alt="{{attributes.name}}"/>
-			</li>
-		{{/each}}
-	</script>
-
-	<script id="page-edit-content-txt" type="text/x-handlebars-template">
-		<div>
-			<label>{{name}}</label>
-			<input />
-		</div>
-	</script>
-
-	<script id="page-edit-content-img" type="text/x-handlebars-template">
-		<div>
-			<label>{{name}}</label>
-			<input />
-		</div>
-	</script>
-
-	<script id="login-tpl" type="text/x-handlebars-template">
-		<form class="login-form">
-			<input type="text" name="username" placeholder="Username" required="required" autofocus="">
-			<input type="password" name="password" placeholder="Password" required="required">
-			<button type="submit">Sign in</button>
-		</form>
-	</script>
-
-	<script id="dev-tpl" type="text/x-handlebars-template">
-		<a href="#/add">Add Block</a>
-	</script>
-
-	<script id="update-block-tpl" type="text/x-handlebars-template">
-		<form class="update-block-form">
-			<div class="form-group update-block-type"></div>
-			<div class="form-group update-block-theme"></div>
-			<div class="form-group">
-				<label for="update-block-name">Block Name</label>
-				<input class="form-control" id="update-block-name" placeholder="" name="name">
-			</div>
-			<div class="form-group">
-				<label for="update-block-file">Preview Image</label>
-				<input type="file" id="update-block-file" name="img">
-				<p class="help-block">600px wide, smaller than 2MB</p>
-			</div>
-			<div class="form-group">
-				<label for="update-block-html">HTML</label>
-				<textarea class="form-control" id="update-block-html" name="html" rows="3"></textarea>
-			</div>
-			<div class="form-group">
-				<label for="update-block-css">CSS</label>
-				<textarea class="form-control" id="update-block-css" name="css" rows="3"></textarea>
-			</div>
-			<div class="form-group">
-				<label for="update-block-content">Default Content</label>
-				<textarea class="form-control" id="update-block-content" name="content" rows="3"></textarea>
-				<p class="help-block">in JSON</p>
-			</div>
-			</div>
-			<div class="form-group">
-				<label for="update-block-fields">Define Fields</label>
-				<textarea class="form-control" id="update-block-help" name="help" rows="3"></textarea>
-				<p class="help-block">in JSON</p>
-			</div>
-			<div class="form-group">
-				<button type="submit" class="btn btn-default">Add</button>
-			</div>
-		</form>
-	</script>
-
-	<script id="select-tpl" type="text/x-handlebars-template">
-		<label for="update-block-{{field}}">{{label}}</label>
-		<select class="form-control" id="update-block-{{field}}" name="{{field}}">
-			{{#each items}}
-				<option value="{{objectId}}">{{name}}</option>
-			{{/each}}
-		</select>
-	</script>
-
-	<!-- Javascript -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="//code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.js"></script>
-	<script src="//npmcdn.com/parse/dist/parse.min.js"></script> <!-- v1.9.2 -->
-	<script src="//cdn.jsdelivr.net/handlebarsjs/3.0.3/handlebars.min.js"></script>
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script src="js/site.js"></script>
-</body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+      <script src="https://use.fontawesome.com/cb2592f0cc.js"></script>
+      <script src="js/typed.js"></script>
+      <script src="js/index.js"></script>
+      <script src="js/moment.js"></script>
+      <script src="js/jquery.cookies.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/functions.js"></script>
+      <script>
+      // All Json content is loaded respectively into #(item) 
+      var jsonUrl="http://madgeekonline.com/tfinfo/";
+      var jsonContent=[ "players"]; $(document).ready(function(){
+         loadJson(jsonUrl, jsonContent);
+      }); 
+      </script> 
+   </body>
 </html>
